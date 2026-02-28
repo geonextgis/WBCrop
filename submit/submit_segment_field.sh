@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=80
 #SBATCH --output=/beegfs/%u/codes/shell/submit/jnb.job.%j
-#SBATCH --partition=gpu
+#SBATCH --partition=highmem
 #SBATCH --job-name=SAM3
 
 source ~/.bashrc
