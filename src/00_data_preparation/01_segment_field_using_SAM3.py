@@ -529,13 +529,13 @@ if __name__ == "__main__":
 
     # ── Step 1: Segmentation ──
     logger.info("=== Step 1 / 3 — Generating masks ===")
-    # generate_field_mask(
-    #     image_dir=image_dir,
-    #     point_path=point_path,
-    #     out_dir=out_dir,
-    #     device=args.device,
-    #     min_size=args.min_size,
-    # )
+    generate_field_mask(
+        image_dir=image_dir,
+        point_path=point_path,
+        out_dir=out_dir,
+        device=args.device,
+        min_size=args.min_size,
+    )
 
     # ── Step 2: Post-processing ──
     logger.info("=== Step 2 / 3 — Post-processing masks ===")
