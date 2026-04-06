@@ -216,7 +216,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 data/
+src/
 *log.txt
 output/
-01_segment_field_using_SAM3.ipynb
-02_finalize_segmented_fields.ipynb
+notebooks/01_preprocessing/01_segment_field_using_SAM3.ipynb
+notebooks/01_preprocessing/02_finalize_segmented_fields.ipynb
