@@ -219,5 +219,6 @@ data/
 src/
 *log.txt
 output/
+submit/
 notebooks/01_preprocessing/01_segment_field_using_SAM3.ipynb
 notebooks/01_preprocessing/02_finalize_segmented_fields.ipynb
